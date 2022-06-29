@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap');
+
+*{
+ margin: 0;
+ padding: 0;
+ display: inline-block;
+}
+
+.header{
+ margin:0;
+ align-content: center;
+ width:100vw;
+ background-color: #eec78c ;
+}
+.header__nav{
+ margin-left: 500px;   
+}
+.header__link{
+ font-family: 'Lora', serif;
+ text-transform: uppercase;
+ color:white;
+ font-weight:bold;
+ text-decoration: none;
+ background-color:#4F422F;
+ padding: 10px;
+}
+.header__link--logo{
+ padding:10px;
+}
+
+.principal{
+ width:100vw;
+ margin:0;
+padding: 30px;
+}
+.principal__index{
+ background-image:url(../assets/te_blend.jpg);
+ background-size:cover; 
+ background-repeat: no-repeat;
+ color:white;
+ font-size: 3rem;
+ height:100vh;
+}
+.principal__sobreNosotros{
+    color:black;
+    font-size: 2rem;
+}
+.principal__sobreNosotros{
+color: black;
+font-size: 2rem;
+}
+
+.principal__titulo{
+ width: 100%;
+ margin-top: 50px;
+ margin-left: 20px;
+ padding: 20px 0;
+ font-family: 'Lora', serif;
+ text-transform: uppercase;
+ text-align:left;
+}
+.principal__texto{
+ margin-left: 20px; 
+ padding: 20px 0;
+ font-family: 'Roboto', sans-serif;
+ color:white;
+ font-size: 30px;
+}
+.principal__texto--index{
+    width: 100%;
+    font-size: 2rem;
+}
+.principal__texto--sobreNosotros{
+color:black;
+width: 80vw;
+font-size: 1.5rem;
+}
+.principal__texto--blends{
+ color: black;
+ width: 80vw;
+ font-size: 1.5rem;   
+}
+.principal__boton{
+ border: none;    
+}
+.principal__boton--blends{
+background-color: #eec78c; 
+border: none;    
+}
+.principal__boton--tienda{
+    background-color: #eec78c; 
+    border: none;    
+    }
+.principal__botonLink--index{
+ width: 300px; 
+ height: 40px;
+ padding-top: 1rem;
+ color: black;
+ background-color:  #967e5b;
+ font-family: 'Lora', serif;
+ font-weight: bold;
+ font-size: 20px;
+ text-transform: uppercase;
+ text-decoration: none;
+}
+.principal__botonLink--index{
+ width: 300px; 
+ height: 40px;
+ padding-top: 1rem;
+ color: black;
+ background-color:  #967e5b;
+ font-family: 'Lora', serif;
+ font-weight: bold;
+ font-size: 20px;
+ text-transform: uppercase;
+ text-decoration: none;
+}
+.principal__botonLink--blends{
+width: 5rem; 
+ height: 2rem;
+ padding-top: 1rem;
+ color: black;
+ background-color:  #967e5b;
+ font-family: 'Lora', serif;
+ font-weight: bold;
+ font-size: 1rem;
+ padding-bottom: 0.5rem;
+ margin-bottom: 2rem;
+ margin-left: 50rem;
+ text-decoration: none;
+}
+.principal__botonLink--tienda{
+    width: 5rem; 
+ height: 2rem;
+ padding-top: 1rem;
+ color: black;
+ background-color:  #967e5b;
+ font-family: 'Lora', serif;
+ font-weight: bold;
+ font-size: 1rem;
+ padding-bottom: 0.5rem;
+ margin-bottom: 2rem;
+ margin-left: 50rem;
+ text-decoration: none;
+}
+.secundario{
+ margin-left: 1rem;   
+ margin-bottom: 2rem;
+}
+.secundario__titulo{
+ width: 100%;
+ padding-top: 30px;
+ font-family: 'Lora', serif;
+ text-transform: uppercase;
+ text-align:left;
+}
+.secundario__titulo--index{
+ font-size: 2rem;  
+ padding: 1rem 2rem;  
+}
+.secundario__titulo--sobreNosotros{
+ font-size: 1rem;
+ padding: 1rem 0;
+ padding-right: 1rem;  
+ padding-left:3rem;
+}
+.secundario__titulo--blends{
+    font-size: 1rem;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.secundario__texto{
+ font-family: 'Roboto', sans-serif;
+}
+.secundario__texto--index{
+ padding:0px 20px ;
+ width: 40%;
+ font-size: 1.2rem;
+}
+.secundario__texto--sobreNosotros{
+ width: 50%;
+ font-size: 1.5rem;
+ padding-left: 0.5rem;   
+
+}   
+.secundario__texto--blends{
+ width: 60%;   
+}
+.secundario__img--idex{
+ width: 45%;
+ padding: 10px;
+}
+.secundario__img--sobreNosotros{
+ padding: 1rem;
+}
+.secundario__img--blends{
+ width: 15%;   
+}
+
+.secundario__contenedor--blends{
+ width: 60%;
+ height: 30%;
+ background-color:#eec78c;   
+ margin-bottom: 2rem;
+ margin-left: 2rem;
+}
+.footer{
+ width: 100vw;
+ height:100px;
+ background-color:#eec78c ;    
+}
+.footer__titulo{
+ width: 20%;
+ margin-top: 20px;
+ margin-left: 40px;
+ font-family: 'Lora', serif;
+ text-transform: uppercase;
+}
+.footer__iconos{
+ width: 50%;   
+ padding:0 30px;
+ margin-left:70%;
+
+}
